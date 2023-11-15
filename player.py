@@ -16,3 +16,6 @@ class Player(Turtle):
 
     def move(self):
         self.forward(20)
+
+    def reset(self):
+        self.goto(x=0, y=-280)
